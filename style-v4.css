@@ -1,0 +1,118 @@
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/comfortaa/v40/700.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/noto-sans/v28/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/noto-sans/v28/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/inconsolata/v31/600.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/domine/v19/600.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/crimson-text/v19/600.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/crimson-text/v19/600-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/comfortaa/v40/600.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/space-mono/v12/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/space-mono/v12/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/montserrat/v25/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/montserrat/v25/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/mali/v9/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/mali/v9/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/lora/v32/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/lora/v32/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/inconsolata/v31/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/comfortaa/v40/500.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/source-code-pro/v22/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/source-code-pro/v22/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/texturina/v21/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/texturina/v21/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/unbounded/v6/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/poppins/v20/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/poppins/v20/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/open-sans/v34/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/open-sans/v34/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/lato/v23/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/lato/v23/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/kalam/v16/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/domine/v19/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/crimson-text/v19/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/crimson-text/v19/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/inter/v12/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/rubik/v26/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/rubik/v26/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/sansita/v10/400.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/sansita/v10/400-italic.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/comfortaa/v40/300.css');
+@import url('https://content.powerapps.com/resource/powerappsportal/fonts/comfortaa/v40/400.css');
+.clock {
+    /* border: 1px solid #fff; */
+    padding: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.clock h3{
+    color:#fff;
+    font-family: Comfortaa;
+}
+
+.clockuae{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0 0 0 / 74%)),url(https://sro-tandeef.powerappsportals.com/uae.jpg);
+    /* filter: brightness(0%); */
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.8s ease-in-out;
+}
+.clockuae:hover{
+    background-position: center bottom;
+    /* filter: brightness(100%); */
+}
+.clocksaudi{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0 0 0 / 74%)),url(https://sro-tandeef.powerappsportals.com/saudi.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.8s ease-in-out;
+}
+.clocksaudi:hover{
+    background-position: center bottom;
+}
+/* .clocksaudi::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed 
+    z-index: 1;
+} */
+.clockegypt{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0 0 0 / 74%)),url(https://sro-tandeef.powerappsportals.com/egypt.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.8s ease-in-out;
+}
+.clockegypt:hover{
+    background-position: center bottom;
+}
+.xrm-attribute-value {
+    background-color:#192129; 
+}
+.navbar-header>.navbar-brand>.xrm-editable-html>.xrm-attribute-value {
+    background-color:transparent; 
+}
+.k-cat>a>img:hover {
+    transform: scale(1.1);
+}
+.cCarousel-item{
+    opacity: 0.6;
+}
+
+.cCarousel-item:hover{
+    opacity: 1;
+}
+
+.cCarousel-item div h2{
+    margin: 0;
+}
+.cCarousel-item div h2 a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
