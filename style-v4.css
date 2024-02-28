@@ -92,6 +92,7 @@
 }
 body {
     background-color:#192129; 
+    overflow-x: hidden;
 }
 .navbar-header>.navbar-brand>.xrm-editable-html>.xrm-attribute-value {
     background-color:transparent; 
